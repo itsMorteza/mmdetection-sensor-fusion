@@ -1,6 +1,11 @@
 # Sensor Fusion Operators for the OpenMMLab Detection Toolbox
 ## Introduction
-This repository contains the sensor fusion operators for the OpenMMLab Detection Toolbox. The sensor fusion operators are used to fuse the detection results from different sensors, such as RGB camera, LiDAR  (early and mid level fusion). 
+This repository contains the early and mid level sensor fusion operators for the OpenMMLab Detection Toolbox. The sensor fusion operators are used to fuse the detection results from different sensors, such as RGB camera, LiDAR. the fusion operators that are implemented in this repository are: 
+- [1] Addition
+- [2] Concatenation
+- [3] Multiplication
+- [4] Bilateral Guided Fusion
+- [5] Multi-modal Factorized Bilinear Pooling 
 ## Installation
 For installation follow the instructions in the [get started](./docs/en/get_started.md) file.
 ## Supported Dataset and Data Preprocessing
