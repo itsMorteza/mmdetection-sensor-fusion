@@ -2,10 +2,11 @@
 ## Introduction
 This repository contains the sensor fusion operators for the OpenMMLab Detection Toolbox. The sensor fusion operators are used to fuse the detection results from different sensors, such as RGB camera, LiDAR  (early and mid level fusion). 
 ## Installation
-for installation follow the instructions in the [get_started.md](./docs/en/get_started.md) file.
+For installation follow the instructions in the [get started](./docs/en/get_started.md) file.
 ## Supported Dataset and Data Preprocessing
-  Please make sure the folder organized like follows before run Preprocess_lidar_map.py:
-    ```
+Please make sure the folder organized like follows before run Preprocess_lidar_map.py:
+    
+```
     ├── cfg
     ├── data
     │   ├── Preprocess_lidar_map.py
@@ -13,11 +14,13 @@ for installation follow the instructions in the [get_started.md](./docs/en/get_s
     │   │   ├── training
     │   │   ├── testing
     │   │   ├── ImageSets
-    ```
-    Then run the generation script
-    ```
+```
+    
+  Then run the generation script
+
+```
     python Preprocess_lidar_map.py
-    ```
+```
 ## train
   ```
   python tools/train.py ${CONFIG_FILE} 
